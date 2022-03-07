@@ -109,9 +109,8 @@ void getChar () {
 
 /* getNonBlank */
 void getNonBlank () {
-    while (std::isspace(nextChar)) {
-        std::cout << "This loop I guess" << std::endl;
-        getChar();}
+    while (std::isspace(nextChar))
+        getChar();
 }
 
 /* lex */
@@ -153,58 +152,3 @@ int lex () {
     std::cout << "Next lexeme is " << lexeme << std::endl;
     return nextToken;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// HAHA
